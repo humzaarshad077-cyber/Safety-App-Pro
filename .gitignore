@@ -1,0 +1,32 @@
+# Local Secrets - NEVER push to GitHub
+lib/secrets.dart
+lib/secret.dart
+*firebase-adminsdk*.json
+*service-account*.json
+*.jks
+*.keystore
+
+# Flutter / Dart
+.DS_Store
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Android / Gradle
+android/local.properties
+android/.gradle/
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/app/debug
+android/app/profile
+android/app/release
+
+# IDE
+.idea/
+*.iml
+.vscode/
